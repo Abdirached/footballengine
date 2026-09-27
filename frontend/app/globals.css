@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.panel {
+  @apply rounded-xl border border-neutral-800 bg-neutral-900/70 p-4;
+}
+
+.btn {
+  @apply rounded-lg border border-neutral-700 bg-neutral-800 px-3 py-1.5 text-sm
+    hover:bg-neutral-700 active:scale-95 transition disabled:opacity-40
+    disabled:pointer-events-none;
+}
