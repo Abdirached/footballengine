@@ -32,6 +32,10 @@ phase, analyses every 50 ms frame server-side, and streams the result to a PixiJ
 * **REST + WebSocket API** for your own data (`POST /api/upload` accepts TEF v1 or
   SkillCorner JSON; Metrica CSV via `/api/upload/metrica`)
 
+## Screenshots
+
+![Live board: pitch-control heatmap, passing triangles, pressing overlays, engine move panel and evaluation bar](docs/board.png)
+
 ## Tests
 
 ```bash
